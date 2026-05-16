@@ -154,18 +154,19 @@ main .hero h1 span{
     position: relative;
 }
 
-.dot1{
-    position: absolute;
+.dotall{
     height: 0.5rem;
     width: 0.5rem;
+}
+
+.dot1{
+    position: absolute;
     background-color: white;
     transform: translate(-50%,-50%);
 }
 
 .dot2{
     position: absolute;
-    height: 0.5rem;
-    width: 0.5rem;
     background-color: white;
     left: 0;
     bottom: 0;
@@ -174,8 +175,6 @@ main .hero h1 span{
 
 .dot3{
     position: absolute;
-    height: 0.5rem;
-    width: 0.5rem;
     background-color: white;
     right: 0;
     top: 0;
@@ -184,8 +183,6 @@ main .hero h1 span{
 
 .dot4{
     position: absolute;
-    height: 0.5rem;
-    width: 0.5rem;
     background-color: white;
     right: 0;
     bottom: 0;
@@ -799,6 +796,10 @@ main .hero .hero3 .hero3p p span{
     }
     main .hero h1 span{
         font-size: 8.5vw;
+    }
+    .dotall{
+        height: 0.3rem;
+        width: 0.3rem;
     }
     main .hero .herop2{
         font-size: 3vw;
