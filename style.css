@@ -478,6 +478,15 @@ main .hero .hero3 .hero3p p span{
     object-fit: cover;
 }
 
+@keyframes logoscroll {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
 /* ****************** last ********************** */
 
 .last{
@@ -608,15 +617,6 @@ main .hero .hero3 .hero3p p span{
 .last-img-box .last-img-box-container:hover .img-txt{
     opacity: 1;
     bottom: 7%;
-}
-
-@keyframes logoscroll {
-    from{
-        transform: translateX(0%);
-    }
-    to{
-        transform: translateX(-100%);
-    }
 }
 
 @media (min-width: 848px) and (max-width: 1200px) {
