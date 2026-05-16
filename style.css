@@ -151,7 +151,45 @@ main .hero h1 span{
     font-size: 4vw;
     border: 1px solid #E8602E;
     background-color: #e8602e3b;
-    padding: 0 0.8rem;
+    position: relative;
+}
+
+.dot1{
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: white;
+    transform: translate(-50%,-50%);
+}
+
+.dot2{
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%,50%);
+}
+
+.dot3{
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: white;
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
+}
+
+.dot4{
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    transform: translate(50%,50%);
 }
 
 main .hero .hero3{
